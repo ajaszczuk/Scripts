@@ -1,0 +1,8 @@
+import pyperclip as pc
+
+def main():
+    cb = pc.paste()
+    pc.copy(cb.replace("\\", "/"))
+
+if __name__ == '__main__':    
+    main()
